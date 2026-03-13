@@ -55,7 +55,7 @@ print("Cumulative explained variance:", cumulative_var)
 
 plt.figure(figsize=(8,5))
 plt.plot(np.cumsum(explained_var), marker='o', linestyle='--')
-plt.axhline(y=0.95, color='r', linestyle=':')  # 95% variance line
+plt.axhline(y=0.95, color='r', linestyle=':')  #95% line
 plt.xlabel('Number of Principal Components')
 plt.ylabel('Cumulative Explained Variance')
 plt.title('PCA Cumulative Explained Variance')

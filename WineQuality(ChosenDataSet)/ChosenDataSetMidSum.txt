@@ -13,4 +13,8 @@ and dropping the quality column (to prevent cheating the values). Addtionally, I
 missing values. 
 
 Current PCA: The PCA for the scaled features shows that the first nine chemical components explain 95% of
-the variance.
+the variance. Added a cumulative explained variance plot shows how variance builds. Also a scatter plot of PC1
+vs PC2 colored by wine quality where similar qualities are bunched together.
+
+Remaining tasks: Ensure proper cleaning throughout entire dataset. Make sure that the dataset will be useable.
+Add addtionall indicators for PCA and more graphs/plots/other visual aids. Clean and organize github repository.
