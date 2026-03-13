@@ -1,0 +1,16 @@
+Jake Knapp
+MA239 Project 3
+GitHub Link: https://github.com/JKnapp798/ma239-sp2026-Project3
+
+Midpoint Progess Summary - Wine Quality Dataset (Chosen Dataset)
+
+Dataset and goal: I am using the Wine Quality dataset, which contains chemical properties
+of various wines. The goal is to analyze and understand how the features relate to the quality 
+of the wine. 
+
+Data cleaning: No major issues were found. Only cleaing required was dropping the ID column (empty data)
+and dropping the quality column (to prevent cheating the values). Addtionally, I confirmed there was no 
+missing values. 
+
+Current PCA: The PCA for the scaled features shows that the first nine chemical components explain 95% of
+the variance.
