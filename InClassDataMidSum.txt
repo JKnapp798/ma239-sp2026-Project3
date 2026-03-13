@@ -1,0 +1,31 @@
+Jake Knapp
+MA239 Project 3
+GitHub Link:
+
+Midpoint Progess Summary - Ames Housing Data (In class)
+
+We are using the Ames housing dataset(train.csv) to predict residential homes
+sale prices(SalePrice). The orginal dataset contains 1460 entires and 81 columns.
+
+Lecture 1 - Loading and Understanding the Data
+
+-Loaded Dataset using pandas.
+-Observed shape, data types, and first rows for the columns.
+-Succesfully found all missing values (and output them).
+
+Lecture 2 - Clean and Encode
+
+-Seperated number catagories and trait columns
+-Removed SalePrice column to prevent self-checking.
+-Filled missing numeric values with the median, the trait were filled with the mode.
+-One-hot encode was used for categorial variables.
+-StandardScaler was used to scale features.
+-Ended with a dataset with 245 features.
+
+Lecture 3 - PCA through SVD
+
+-Singular value decomp is applied to the new scaled data.
+-Calculated variance and cumulative variance.
+-Calculated number of components needed for 90% minimun variance.
+-Endede with a dataset reduced from 245 features to 138 features.
+
