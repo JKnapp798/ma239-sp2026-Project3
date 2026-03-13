@@ -29,7 +29,7 @@ scaled_features = scaler.fit_transform(features)
 
 # --- PCA Componet ---
 
-pca = PCA()
+pca = PCA() #same as PVA via SVD from inclass dataset
 pca_components = pca.fit_transform(scaled_features)
 
 # Explained variance
