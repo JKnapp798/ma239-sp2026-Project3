@@ -1,6 +1,5 @@
 Jake Knapp
 MA239 Project 3
-Will this get added?
 GitHub Link: https://github.com/JKnapp798/ma239-sp2026-Project3
 
 Midpoint Progess Summary - Ames Housing Data (In class)
