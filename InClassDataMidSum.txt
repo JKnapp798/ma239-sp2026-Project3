@@ -15,7 +15,7 @@ Lecture 1 - Loading and Understanding the Data
 
 Lecture 2 - Clean and Encode
 
--Seperated number catagories and trait columns
+-Seperated number catagories and trait columns.
 -Removed SalePrice column to prevent self-checking.
 -Filled missing numeric values with the median, the trait were filled with the mode.
 -One-hot encode was used for categorial variables.
