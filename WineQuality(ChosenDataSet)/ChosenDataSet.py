@@ -19,8 +19,11 @@ print("Columns:", df.columns.tolist())
 df = df.drop(columns=["Id"])
 
 # Check for missing values
+print("\nThe Following Are Missing Values:\n")
 print(df.isnull().sum())
 df.fillna(df.mean(), inplace=True) #fill any empty spots with mean (all values are numertic so no mode needed)
+print("\nMissing Values After Cleaning:\n")
+print(df.isnull().sum())
 
 # Separate features, quality is removed as it would be cheating otherwise
 features = df.drop(columns=["quality"])
