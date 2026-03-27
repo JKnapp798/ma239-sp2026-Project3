@@ -10,3 +10,8 @@ The analysis covers:
 
 Data cleaning and missing value handling, feature scaling, dimensionality reduction with PCA, model training, 
 evaluation with multiple regression techniques, model comparison, and condition number analysis.
+
+Usage
+-----
+pip install pandas numpy matplotlib scikit-learn
+python WineQualityAnalysis.py
