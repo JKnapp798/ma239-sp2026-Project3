@@ -13,7 +13,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 
-df = pd.read_csv("WineQuality(ChosenDataSet)/WineQT.csv")
+df = pd.read_csv("Project3WineQuality/WineQT.csv")
 print("Dataset shape:", df.shape)
 print("Columns:", df.columns.tolist())
 
