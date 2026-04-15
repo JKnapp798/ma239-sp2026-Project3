@@ -2,6 +2,8 @@
 #MA239 Project 3
 #Wine Quality Dataset
 
+
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -64,7 +66,7 @@ plt.figure(figsize=(8,5))
 plt.plot(np.cumsum(explained_var), marker='o', linestyle='--')
 plt.axhline(y=0.95, color='r', linestyle=':')  #95% line
 plt.xlabel('Number of Principal Components')
-plt.ylabel('Cumulative Explained Variance')
+plt.ylabel('Cumulative Explained Variance Ratio')
 plt.title('PCA Cumulative Explained Variance')
 plt.grid(True)
 plt.show()
